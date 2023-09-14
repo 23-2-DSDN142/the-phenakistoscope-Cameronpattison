@@ -75,12 +75,12 @@ function setup_layers(pScope){
   CenterImage0.mode(SWIRL(1));
   CenterImage0.set_boundary(0, 0); 
 
-  var CenterImage = new PLayer(heart);
+  var CenterImage = new PLayer(Cloud);
   CenterImage.mode(RING);
   CenterImage.set_boundary(0, 0); 
 }
 
-function heart(x, y, animation, pScope){
+function Cloud(x, y, animation, pScope){
   scale(1.5);
   pScope.draw_image("cloud",30,200);
 }
